@@ -153,77 +153,7 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_Pob60ymas_B_2_0(feature) {
-            if (feature.properties['POB60YMAS'] >= 0.000000 && feature.properties['POB60YMAS'] <= 15.000000 ) {
-                return {
-                pane: 'pane_Pob60ymas_B_2',
-                stroke: false, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(234,226,187,1.0)',
-                interactive: true,
-            }
-            }
-            if (feature.properties['POB60YMAS'] >= 15.000000 && feature.properties['POB60YMAS'] <= 30.000000 ) {
-                return {
-                pane: 'pane_Pob60ymas_B_2',
-                stroke: false, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(233,215,184,1.0)',
-                interactive: true,
-            }
-            }
-            if (feature.properties['POB60YMAS'] >= 30.000000 && feature.properties['POB60YMAS'] <= 50.000000 ) {
-                return {
-                pane: 'pane_Pob60ymas_B_2',
-                stroke: false, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(232,201,179,1.0)',
-                interactive: true,
-            }
-            }
-            if (feature.properties['POB60YMAS'] >= 50.000000 && feature.properties['POB60YMAS'] <= 100.000000 ) {
-                return {
-                pane: 'pane_Pob60ymas_B_2',
-                stroke: false, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(197,156,164,1.0)',
-                interactive: true,
-            }
-            }
-            if (feature.properties['POB60YMAS'] >= 100.000000 && feature.properties['POB60YMAS'] <= 200.000000 ) {
-                return {
-                pane: 'pane_Pob60ymas_B_2',
-                stroke: false, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(164,141,158,1.0)',
-                interactive: true,
-            }
-            }
-            if (feature.properties['POB60YMAS'] >= 200.000000 && feature.properties['POB60YMAS'] <= 500.000000 ) {
-                return {
-                pane: 'pane_Pob60ymas_B_2',
-                stroke: false, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(96,109,148,1.0)',
-                interactive: true,
-            }
-            }
-            if (feature.properties['POB60YMAS'] >= 500.000000 && feature.properties['POB60YMAS'] <= 1738.000000 ) {
-                return {
-                pane: 'pane_Pob60ymas_B_2',
-                stroke: false, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(29,78,137,1.0)',
-                interactive: true,
-            }
-            }
+       
         }
         map.createPane('pane_Pob60ymas_B_2');
         map.getPane('pane_Pob60ymas_B_2').style.zIndex = 402;
